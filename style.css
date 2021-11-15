@@ -20,7 +20,7 @@ body {
 /* to center, the width must be in percent to the total screen size and margin set to auto */
 /* without the width specified, the design will scatter during reponsiveness */
     margin: 100px auto;
-    width: 35%;
+    width: 30%;
     background-color: white;
     border-radius: 25px;
     box-shadow:0px 5px 5px #cecaca;
@@ -46,7 +46,7 @@ body {
     background-color: hsl(225, 100%, 98%);
     padding: 20px;
     border-radius: 10px;
-    margin: 0px 50px;
+    margin: 0px 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,7 @@ body {
 }
 
 #payment{
-    margin: 30px 50px 25px 50px;
+    margin: 30px 35px 25px 35px;
     padding: 13px 70px;
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
