@@ -19,7 +19,7 @@ body {
 /* to center, the width must be in percent to the total screen size and margin set to auto */
 /* without the width specified, the design will scatter during reponsiveness */
     margin: 100px auto;
-    width: 30%;
+    width: 25%;
     background-color: white;
     border-radius: 25px;
     box-shadow:0px 5px 5px #cecaca;
@@ -36,7 +36,7 @@ body {
 
 #about{
     margin-bottom: 25px;
-    padding: 0px 60px;
+    padding: 0px 50px;
     color: hsl(224, 23%, 55%);
     text-align: center;
 }
