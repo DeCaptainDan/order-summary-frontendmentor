@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: scroll;
+}
+
+#main .dance{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: auto;
+    width:100%;
+}
+
+#main{
+/* to center, the width must be in percent to the total screen size and margin set to auto */
+/* without the width specified, the design will scatter during reponsiveness */
+    margin: 100px auto;
+    width: 35%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow:0px 5px 5px #cecaca;
+}
+
+#order{
+    font-weight:900;
+    font-size: 27px;
+    margin-top: 40px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    
+}
+
+#about{
+    margin-bottom: 25px;
+    padding: 0px 50px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+#plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shiftl{
+    display: flex;
+}
+
+#planyear{
+    padding-left: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.textplan{
+    font-size: 18px;  
+    font-weight: 800;    
+}
+
+.year{
+    color:hsl(224, 23%, 55%);
+}
+
+#change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#payment{
+    margin: 30px 50px 25px 50px;
+    padding: 13px 70px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow:0px 10px 15px hsl(229, 57%, 83%);
+    text-align: center;
+}
+
+#cancel{
+    text-align: center;
+    font-weight:bold;
+    padding-bottom: 40px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+/* hover */
+
+a{
+    text-decoration: none;
+}
+
+#change a:visited{
+    color: hsl(245, 75%, 52%);
+}
+
+#payment a:visited{
+    color: white;
+}
+
+#cancel a:visited{
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel a:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+
+#change a:hover{
+    color: hsl(256, 68%, 53%);
+}
+
+#change:hover{
+    text-decoration: none;
+}
+
+#payment:hover{
+    background-color: hsl(256, 68%, 53%);
+    
+}
+
+@media screen and (max-width: 375px){
+    #main{
+        width: 92%;
+    }
+    
+    #order{
+        font-size: 22px;
+        margin: 30px 0px 15px 0px;
+    }
+
+    #about{
+        padding: 0px 33px;
+    }
+    
+    #plan{
+        padding: 20px 17px 13px 17px;
+        margin: 0px 20px;
+    }
+
+    #planyear{
+        padding-left: 17px;
+        
+    }
+
+    .textplan{
+        font-size: 16px;    
+    }
+
+    #payment{
+        margin: 25px 20px 23px 20px;
+        padding: 13px 20px;
+        
+    }
+    
+    #cancel{
+        padding-bottom: 30px;
+    }
+}
