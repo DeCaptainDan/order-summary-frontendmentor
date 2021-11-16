@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-mobile-first-hTq2qxvrn)
+- Live Site URL: [Live site URL](https://decaptaindan.github.io/order-summary-frontendmentor/)
 
 ## My process
 
@@ -89,11 +89,12 @@ id
 
 ## Author
 - LinkedIn - [Daniel Samuel](https://www.linkedin.com/in/daniel-samuel-73190017b/)
-
 - Frontend Mentor - [@DeCaptainDan](https://www.frontendmentor.io/profile/DeCaptainDan)
+- Twitter - [@DanSam24372807](https://www.twitter.com/@DanSam24372807)
 
 
 ## Acknowledgments
 
 - I want to thank my mentor in SideHustle internship who showed me this site [frontendmentor](https://www.frontendmentor.io). He has really supported me in learning HTML and CSS.
+- I aslo want to thank frontend mentor for this opportunity
 - Thanks to [w3Schools](https://my-learning.w3schools.com/) for helping me improve my knowledge on HTML and CSS
