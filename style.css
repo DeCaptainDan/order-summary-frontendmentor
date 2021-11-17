@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Red Hat Display", sans-serif;
     background-image: url(./images/pattern-background-desktop.svg);
@@ -16,8 +20,6 @@ body {
 }
 
 #main{
-/* to center, the width must be in percent to the total screen size and margin set to auto */
-/* without the width specified, the design will scatter during reponsiveness */
     margin: 100px auto;
     width: 30%;
     background-color: white;
@@ -76,15 +78,18 @@ body {
     text-decoration: underline;
 }
 
-#payment{
-    margin: 30px 35px 25px 35px;
-    padding: 13px 70px;
-    background-color: hsl(245, 75%, 52%);
-    border-radius: 10px;
+#payment {
+    margin: 43px 35px 38px;
+    text-align: center;
+}
+
+#payment a{
     color: white;
     font-weight: bold;
+    background-color: hsl(245, 75%, 52%);
+    padding: 13px 87px;
+    border-radius: 10px;
     box-shadow:0px 10px 15px hsl(229, 57%, 83%);
-    text-align: center;
 }
 
 #cancel{
@@ -107,7 +112,7 @@ a{
 }
 
 #payment a:visited{
-    color: white;
+    color:white;
 }
 
 #cancel a:visited{
@@ -127,7 +132,7 @@ a{
     text-decoration: none;
 }
 
-#payment:hover{
+#payment a:hover{
     background-color: hsl(256, 68%, 53%);
     
 }
