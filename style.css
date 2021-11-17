@@ -21,6 +21,7 @@ body {
 
 #main{
     margin: 100px auto;
+    min-width: 300px;
     width: 30%;
     background-color: white;
     border-radius: 25px;
@@ -54,7 +55,7 @@ body {
 }
 
 .shiftl{
-    display: flex;
+    display: inline-flex;
 }
 
 #planyear{
@@ -63,7 +64,7 @@ body {
 }
 
 .textplan{
-    font-size: 18px;  
+    font-size: 17px;  
     font-weight: 800;    
 }
 
@@ -80,16 +81,18 @@ body {
 
 #payment {
     margin: 43px 35px 38px;
-    text-align: center;
 }
 
 #payment a{
     color: white;
     font-weight: bold;
+    text-align: center;
     background-color: hsl(245, 75%, 52%);
-    padding: 13px 87px;
+    padding: 13px 20px;
     border-radius: 10px;
     box-shadow:0px 10px 15px hsl(229, 57%, 83%);
+    display: inline-block;
+    width: 100%;
 }
 
 #cancel{
@@ -137,7 +140,7 @@ a{
     
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 550px){
     #main{
         width: 92%;
     }
@@ -152,8 +155,8 @@ a{
     }
     
     #plan{
-        padding: 20px 17px 13px 17px;
-        margin: 0px 20px;
+        padding: 13px 10px;
+        margin:0px, 10px;
     }
 
     #planyear{
@@ -163,12 +166,6 @@ a{
 
     .textplan{
         font-size: 16px;    
-    }
-
-    #payment{
-        margin: 25px 20px 23px 20px;
-        padding: 13px 20px;
-        
     }
     
     #cancel{
